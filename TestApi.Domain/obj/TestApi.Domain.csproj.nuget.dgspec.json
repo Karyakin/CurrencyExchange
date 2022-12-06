@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Domain\\TestApi.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Domain\\TestApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Domain\\TestApi.Domain.csproj",
+        "projectName": "TestApi.Domain",
+        "projectPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Domain\\TestApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\d.karyakin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.karyakin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\TestApi.Utils.csproj": {
+                "projectPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\TestApi.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\TestApi.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\TestApi.Entities.csproj",
+        "projectName": "TestApi.Entities",
+        "projectPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\TestApi.Entities.csproj",
+        "packagesPath": "C:\\Users\\d.karyakin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.karyakin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\TestApi.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\TestApi.Utils.csproj",
+        "projectName": "TestApi.Utils",
+        "projectPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\TestApi.Utils.csproj",
+        "packagesPath": "C:\\Users\\d.karyakin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.karyakin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\TestApi.Entities.csproj": {
+                "projectPath": "C:\\Users\\d.karyakin\\Desktop\\Project\\TestApi\\TestApi.Entities\\TestApi.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.1-dev-01587, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
